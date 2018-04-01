@@ -185,7 +185,7 @@ class Smappee
         return $result;
     }
     
-    public function getConsumption($serviceLocationId, \DateTime $from, \DateTime $to, $aggregation = self::AGGREGATION_5MIN)
+    public function getConsumption($serviceLocationId, \DateTime $from, \DateTime $to, $aggregation = self::AGGREGATION_5MINS)
     {
         $serviceLocationId = (int)$serviceLocationId;
         
